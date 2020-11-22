@@ -63,7 +63,7 @@ def connectionLoop(sock):
         data, addr = sock.recvfrom(1024)
         data = str(data)
         if addr in clients:
-            clients[add]['lastBeat' = datetime.now()
+            clients[add]['lastBeat'] = datetime.now()
         else
             clients[addr] = {}
             clients[addr]['lastBeat'] = datetime.now()
