@@ -78,9 +78,7 @@ def connectionLoop(sock):
             else:
 
         
-            if m['PID'] == "NOID":
-                for x in range(100):
-                    if                     
+                  
 
             clients[addr]['PID'] = m['PID']
             clients[addr]['rating'] = m['rating']
