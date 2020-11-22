@@ -87,12 +87,14 @@ def connectionLoop(sock):
 
 
 def matchMaking(sock):
+    pass    
 
 
 def gameLoop(sock):
-
+    pass
 
 def cleanClients(sock):
+    pass
 
 def setup():
     getPlayerList()
