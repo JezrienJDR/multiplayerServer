@@ -58,7 +58,7 @@ gameList = {}
 
 
 
-def connectionLoop(sock)
+def connectionLoop(sock):
     while True:
         data, addr = sock.recvfrom(1024)
         data = str(data)
@@ -90,15 +90,15 @@ def connectionLoop(sock)
 
 
 
-def matchMaking(sock)
+def matchMaking(sock):
 
 
-def gameLoop(sock)
+def gameLoop(sock):
 
 
-def cleanClients(sock)
+def cleanClients(sock):
 
-def setup()
+def setup():
     getPlayerList()
 
 
