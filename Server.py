@@ -75,10 +75,8 @@ def connectionLoop(sock):
             if id in fullPlayerList.keys():
                 clients[addr]['rating'] = fullPlayerList[id]['rating']
                 clients[addr]['PID'] = id
-            else:
+            #else:
 
-        
-                  
 
             clients[addr]['PID'] = m['PID']
             clients[addr]['rating'] = m['rating']
